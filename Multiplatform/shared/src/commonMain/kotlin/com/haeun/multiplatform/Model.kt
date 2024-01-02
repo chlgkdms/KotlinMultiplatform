@@ -10,6 +10,6 @@ data class GithubUsersModel(
 
 @Serializable
 data class GithubUserModel(
-    @SerialName("full_name") val fullName: String,
-    val description: String?,
+    @SerialName("login") val fullName: String,
+    @SerialName("avatar_url") val avatarUrl: String?,
 )

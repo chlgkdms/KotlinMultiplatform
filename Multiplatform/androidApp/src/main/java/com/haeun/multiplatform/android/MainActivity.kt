@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -25,6 +26,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import coil.compose.AsyncImage
 import com.haeun.multiplatform.GithubUserModel
 import com.haeun.multiplatform.GithubUsersModel
 import com.haeun.multiplatform.Repository
@@ -51,7 +53,7 @@ fun SampleView() {
     var githubUsers: GithubUsersModel? by remember { mutableStateOf(null) }
     var savedString by remember { mutableStateOf(repository.getSavedString()) }
     LaunchedEffect(Unit) {
-        githubUsers = repository.getGithubUsers(q = "chlgkdms")
+        githubUsers = repository.getGithubUsers(q = savedString)
     }
     LazyColumn(
         Modifier.fillMaxSize()
@@ -89,15 +91,29 @@ fun EditSavedString(savedString: String, onSaveNewString: (String) -> Unit) {
                 .background(Color.LightGray),
             onClick = { onSaveNewString(newString) }
         ) {
-            Text(text = "저장", color = Color.DarkGray, fontSize = 16.sp)
+            Text(
+                text = "저장",
+                color = Color.DarkGray,
+                fontSize = 16.sp,
+            )
         }
     }
 }
 
 @Composable
 fun GithubRepositoryItemView(item: GithubUserModel) {
-    Column(Modifier.padding(8.dp)) {
-        Text(text = item.fullName, color = Color.DarkGray, fontSize = 16.sp)
-        item.description?.let { Text(text = it, color = Color.Gray, fontSize = 12.sp) }
+    Row(
+        modifier = Modifier.padding(8.dp),
+
+    ) {
+        AsyncImage(
+            model = item.avatarUrl,
+            contentDescription = "유저 프로필",
+        )
+        Text(
+            text = item.fullName,
+            color = Color.DarkGray,
+            fontSize = 16.sp,
+        )
     }
 }
