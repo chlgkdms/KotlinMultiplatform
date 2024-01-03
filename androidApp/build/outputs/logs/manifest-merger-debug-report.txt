@@ -1,0 +1,429 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:2:1-19:12
+MERGED from [:shared] /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/shared/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil-compose:2.5.0] /Users/choeha-eun/.gradle/caches/transforms-3/ecd273154b1c5811b292359c254537ad/transformed/coil-compose-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.insert-koin:koin-android:3.4.2] /Users/choeha-eun/.gradle/caches/transforms-3/dc0bd4e9f5f186cbaceed42d62e349da/transformed/koin-android-3.4.2/AndroidManifest.xml:2:1-11:12
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] /Users/choeha-eun/.gradle/caches/transforms-3/ce07135debb5c5117e39dc465ae79486/transformed/coil-compose-base-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt:coil:2.5.0] /Users/choeha-eun/.gradle/caches/transforms-3/1862834e523f996aaee535483e20f16c/transformed/coil-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/choeha-eun/.gradle/caches/transforms-3/fbb085fd5283d60db7f9ab0a0e2b36e8/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:17:1-23:12
+MERGED from [io.coil-kt:coil-base:2.5.0] /Users/choeha-eun/.gradle/caches/transforms-3/1ba87510746a58c8b7f2b406a85b952e/transformed/coil-base-2.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.preference:preference:1.2.0] /Users/choeha-eun/.gradle/caches/transforms-3/570d0a5498698cb735f462a7ab7e1b03/transformed/preference-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/a79f0111faa5c6a55f4113d6339af967/transformed/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/d4ac7e73df10e1c2b34e3f04a0905eac/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/choeha-eun/.gradle/caches/transforms-3/02660246dc396c814756493bbde32c1f/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/ebf6723e8c9b3a71c1c3f939cfb70760/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.compose.material3:material3:1.1.2] /Users/choeha-eun/.gradle/caches/transforms-3/8f646af8d0c32c80d5d2cdac24f85e38/transformed/material3-1.1.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple:1.4.3] /Users/choeha-eun/.gradle/caches/transforms-3/9d70418d904d7b5c020bd1a898396ab7/transformed/material-ripple-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-icons-core:1.4.3] /Users/choeha-eun/.gradle/caches/transforms-3/ed1162a5c3eddf7c6007fc50a0d12164/transformed/material-icons-core-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.5.7] /Users/choeha-eun/.gradle/caches/transforms-3/e8f5653c899a76709c61368145a45df4/transformed/fragment-ktx-1.5.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/choeha-eun/.gradle/caches/transforms-3/b39d8e7c258f535e5798de02db5be098/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/choeha-eun/.gradle/caches/transforms-3/0e67e9e895436e30d645c2c7a5a9f1c5/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.5.7] /Users/choeha-eun/.gradle/caches/transforms-3/ea88b540aaf6dcb4d597b25a4a019823/transformed/fragment-1.5.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.7.2] /Users/choeha-eun/.gradle/caches/transforms-3/7558ac862a829fcfbcaeb3ff680923b2/transformed/activity-1.7.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.7.2] /Users/choeha-eun/.gradle/caches/transforms-3/5fb7f5bdce33b6c31331d77d7a51feeb/transformed/activity-ktx-1.7.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.7.2] /Users/choeha-eun/.gradle/caches/transforms-3/5352f3b2ddf8f5842b9cfa85f8e27b07/transformed/activity-compose-1.7.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/fb82c7928a74a038b1e41f9e9e703b9a/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/0a22c9acc95566eccaa7297bf0ee0ab1/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/6eb6a6eb2415c04c47ed3d40d6a9baf3/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/9ffbf5175717630d8d615b93e53e30a3/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/8cc21e70581105a9aab65bfe82136900/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/e575561c181721668b01f145625ea40b/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/bf04827f5852ca6a7293129f1c079ff5/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/b0283f81b36bdde93867844d879388d4/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/e72267ebe2a4b653b8bb352bb4f08831/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/087034820c8094c34d558a46feb947b3/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/2023023407bc56db85c9f309a042b949/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/82bbb8afdf85ac8f6fb3fe06937a29a2/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/5ba314871278c81d978b96cdc88a5503/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.material:material:1.4.3] /Users/choeha-eun/.gradle/caches/transforms-3/04397eecb8964e4237d15e7e21035a45/transformed/material-1.4.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/bc6cb5c5d1bced42e791661262201d95/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/d05cbe517aeecf50b34f06de43943c0e/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/choeha-eun/.gradle/caches/transforms-3/93ff2044ecc24dba0759e120f5f4346f/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/70175beb29be67345362b1bedcf0581c/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/0a960badd3e4d7d25d499f9fd48e772c/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/0290d8a921805563f056a8b153d87cc6/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/ac49a321af20440a1d41e185bf5ff31c/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/7a73e0868c306e012dff051c864fd127/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/choeha-eun/.gradle/caches/transforms-3/4819f322b6c0e27de51bf00aef0dc661/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/choeha-eun/.gradle/caches/transforms-3/1484e3838c0a98ac6c7c2783eaf1ba85/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/choeha-eun/.gradle/caches/transforms-3/8a8f6f580164751ddce522547a78dbf9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/choeha-eun/.gradle/caches/transforms-3/d618eab481216e4a81d65413421b2496/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/13b56bade3bd016868c2beb1671074ad/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/34ee95232d3ef0cdf793ee8a72644876/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/ea2fc019084dff9835adba7caf76e7e7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/a100e0301ef5f1a999d6bb7bc9b147aa/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /Users/choeha-eun/.gradle/caches/transforms-3/e7466d454c1379bc374d780a762c53f7/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/choeha-eun/.gradle/caches/transforms-3/e5d4a32fc83fd145e3722f379ecad1ac/transformed/emoji2-1.4.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/c724a6188832e818ca57f835f1bfc91f/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/c2f5b307a0d72e7b1fa134ffda33a575/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/ac157bc4ae18afe890cc7c80a2877ef9/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/23298c5f837b0031bdc03057627baabe/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/3aa499a90b3cf49a9663cd26f1e9249d/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/4b03a68f93955a372eb4e55a83b5c369/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/3f8b6dafacb5ac28f3c7554fd9f13652/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/fabfb8a6d120a3d0b98228dea53782dc/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/a7c5ea549556e5328f64223b99c54bda/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/5385f64ab39f83969eceeb7a0ebe0718/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/d4242bdf211a12051ced77580736a90f/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/choeha-eun/.gradle/caches/transforms-3/b4ed2a7f99320e5c938585907eeee8b0/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/choeha-eun/.gradle/caches/transforms-3/a90355d07d891e605d3734961a8a9d15/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/8aafcda6e5ed549036e70f65f99a2eb6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choeha-eun/.gradle/caches/transforms-3/0064a50b28e78d78d5a0f2e197452b56/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/32cc5a2f5ecb6c5940d59277449ad792/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/choeha-eun/.gradle/caches/transforms-3/a84cc49cb21295288df9ac834d55dca2/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/60b96389365b8b37d53dac3c746be572/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choeha-eun/.gradle/caches/transforms-3/bc7d9c8d08bf3ba78f73be69925a7775/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/choeha-eun/.gradle/caches/transforms-3/56122904840b2957d45608be0790f917/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/b23598be416b23b3c9896e53d0469f00/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/c31bb5f919411439365dbd8a624ee7da/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/7158ced440ee08eb39a3972b7bfb6300/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:2:1-19:12
+	package
+		INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:2:1-19:12
+		INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:2:1-19:12
+		INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:2:1-19:12
+		INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:6:5-18:19
+MERGED from [io.insert-koin:koin-android:3.4.2] /Users/choeha-eun/.gradle/caches/transforms-3/dc0bd4e9f5f186cbaceed42d62e349da/transformed/koin-android-3.4.2/AndroidManifest.xml:9:5-20
+MERGED from [io.insert-koin:koin-android:3.4.2] /Users/choeha-eun/.gradle/caches/transforms-3/dc0bd4e9f5f186cbaceed42d62e349da/transformed/koin-android-3.4.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.window:window:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/ebf6723e8c9b3a71c1c3f939cfb70760/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/ebf6723e8c9b3a71c1c3f939cfb70760/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/5ba314871278c81d978b96cdc88a5503/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/5ba314871278c81d978b96cdc88a5503/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/choeha-eun/.gradle/caches/transforms-3/e5d4a32fc83fd145e3722f379ecad1ac/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/choeha-eun/.gradle/caches/transforms-3/e5d4a32fc83fd145e3722f379ecad1ac/transformed/emoji2-1.4.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/c2f5b307a0d72e7b1fa134ffda33a575/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/c2f5b307a0d72e7b1fa134ffda33a575/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/ac157bc4ae18afe890cc7c80a2877ef9/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/ac157bc4ae18afe890cc7c80a2877ef9/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choeha-eun/.gradle/caches/transforms-3/0064a50b28e78d78d5a0f2e197452b56/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choeha-eun/.gradle/caches/transforms-3/0064a50b28e78d78d5a0f2e197452b56/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choeha-eun/.gradle/caches/transforms-3/bc7d9c8d08bf3ba78f73be69925a7775/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choeha-eun/.gradle/caches/transforms-3/bc7d9c8d08bf3ba78f73be69925a7775/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/c2f5b307a0d72e7b1fa134ffda33a575/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:9:9-35
+	android:allowBackup
+		ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:8:9-36
+	android:theme
+		ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:10:9-40
+	android:name
+		ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:7:9-71
+activity#com.haeun.multiplatform.android.MainActivity
+ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:11:9-17:20
+	android:exported
+		ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:11:19-42
+	android:name
+		ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:12:13-72
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:13:13-16:29
+action#android.intent.action.MAIN
+ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml:15:27-74
+uses-sdk
+INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml
+INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml
+MERGED from [:shared] /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/shared/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared] /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/shared/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.5.0] /Users/choeha-eun/.gradle/caches/transforms-3/ecd273154b1c5811b292359c254537ad/transformed/coil-compose-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose:2.5.0] /Users/choeha-eun/.gradle/caches/transforms-3/ecd273154b1c5811b292359c254537ad/transformed/coil-compose-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.insert-koin:koin-android:3.4.2] /Users/choeha-eun/.gradle/caches/transforms-3/dc0bd4e9f5f186cbaceed42d62e349da/transformed/koin-android-3.4.2/AndroidManifest.xml:5:5-7:41
+MERGED from [io.insert-koin:koin-android:3.4.2] /Users/choeha-eun/.gradle/caches/transforms-3/dc0bd4e9f5f186cbaceed42d62e349da/transformed/koin-android-3.4.2/AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] /Users/choeha-eun/.gradle/caches/transforms-3/ce07135debb5c5117e39dc465ae79486/transformed/coil-compose-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-compose-base:2.5.0] /Users/choeha-eun/.gradle/caches/transforms-3/ce07135debb5c5117e39dc465ae79486/transformed/coil-compose-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.5.0] /Users/choeha-eun/.gradle/caches/transforms-3/1862834e523f996aaee535483e20f16c/transformed/coil-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil:2.5.0] /Users/choeha-eun/.gradle/caches/transforms-3/1862834e523f996aaee535483e20f16c/transformed/coil-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/choeha-eun/.gradle/caches/transforms-3/fbb085fd5283d60db7f9ab0a0e2b36e8/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [com.google.accompanist:accompanist-drawablepainter:0.32.0] /Users/choeha-eun/.gradle/caches/transforms-3/fbb085fd5283d60db7f9ab0a0e2b36e8/transformed/accompanist-drawablepainter-0.32.0/AndroidManifest.xml:21:5-44
+MERGED from [io.coil-kt:coil-base:2.5.0] /Users/choeha-eun/.gradle/caches/transforms-3/1ba87510746a58c8b7f2b406a85b952e/transformed/coil-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt:coil-base:2.5.0] /Users/choeha-eun/.gradle/caches/transforms-3/1ba87510746a58c8b7f2b406a85b952e/transformed/coil-base-2.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.preference:preference:1.2.0] /Users/choeha-eun/.gradle/caches/transforms-3/570d0a5498698cb735f462a7ab7e1b03/transformed/preference-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.0] /Users/choeha-eun/.gradle/caches/transforms-3/570d0a5498698cb735f462a7ab7e1b03/transformed/preference-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/a79f0111faa5c6a55f4113d6339af967/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/a79f0111faa5c6a55f4113d6339af967/transformed/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/d4ac7e73df10e1c2b34e3f04a0905eac/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/d4ac7e73df10e1c2b34e3f04a0905eac/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/choeha-eun/.gradle/caches/transforms-3/02660246dc396c814756493bbde32c1f/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/choeha-eun/.gradle/caches/transforms-3/02660246dc396c814756493bbde32c1f/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/ebf6723e8c9b3a71c1c3f939cfb70760/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/ebf6723e8c9b3a71c1c3f939cfb70760/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material3:material3:1.1.2] /Users/choeha-eun/.gradle/caches/transforms-3/8f646af8d0c32c80d5d2cdac24f85e38/transformed/material3-1.1.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.1.2] /Users/choeha-eun/.gradle/caches/transforms-3/8f646af8d0c32c80d5d2cdac24f85e38/transformed/material3-1.1.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.4.3] /Users/choeha-eun/.gradle/caches/transforms-3/9d70418d904d7b5c020bd1a898396ab7/transformed/material-ripple-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.4.3] /Users/choeha-eun/.gradle/caches/transforms-3/9d70418d904d7b5c020bd1a898396ab7/transformed/material-ripple-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.4.3] /Users/choeha-eun/.gradle/caches/transforms-3/ed1162a5c3eddf7c6007fc50a0d12164/transformed/material-icons-core-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.4.3] /Users/choeha-eun/.gradle/caches/transforms-3/ed1162a5c3eddf7c6007fc50a0d12164/transformed/material-icons-core-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.5.7] /Users/choeha-eun/.gradle/caches/transforms-3/e8f5653c899a76709c61368145a45df4/transformed/fragment-ktx-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.7] /Users/choeha-eun/.gradle/caches/transforms-3/e8f5653c899a76709c61368145a45df4/transformed/fragment-ktx-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/choeha-eun/.gradle/caches/transforms-3/b39d8e7c258f535e5798de02db5be098/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/choeha-eun/.gradle/caches/transforms-3/b39d8e7c258f535e5798de02db5be098/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/choeha-eun/.gradle/caches/transforms-3/0e67e9e895436e30d645c2c7a5a9f1c5/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/choeha-eun/.gradle/caches/transforms-3/0e67e9e895436e30d645c2c7a5a9f1c5/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.5.7] /Users/choeha-eun/.gradle/caches/transforms-3/ea88b540aaf6dcb4d597b25a4a019823/transformed/fragment-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] /Users/choeha-eun/.gradle/caches/transforms-3/ea88b540aaf6dcb4d597b25a4a019823/transformed/fragment-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.7.2] /Users/choeha-eun/.gradle/caches/transforms-3/7558ac862a829fcfbcaeb3ff680923b2/transformed/activity-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.7.2] /Users/choeha-eun/.gradle/caches/transforms-3/7558ac862a829fcfbcaeb3ff680923b2/transformed/activity-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.2] /Users/choeha-eun/.gradle/caches/transforms-3/5fb7f5bdce33b6c31331d77d7a51feeb/transformed/activity-ktx-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.7.2] /Users/choeha-eun/.gradle/caches/transforms-3/5fb7f5bdce33b6c31331d77d7a51feeb/transformed/activity-ktx-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.7.2] /Users/choeha-eun/.gradle/caches/transforms-3/5352f3b2ddf8f5842b9cfa85f8e27b07/transformed/activity-compose-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.7.2] /Users/choeha-eun/.gradle/caches/transforms-3/5352f3b2ddf8f5842b9cfa85f8e27b07/transformed/activity-compose-1.7.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/fb82c7928a74a038b1e41f9e9e703b9a/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/fb82c7928a74a038b1e41f9e9e703b9a/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/0a22c9acc95566eccaa7297bf0ee0ab1/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/0a22c9acc95566eccaa7297bf0ee0ab1/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/6eb6a6eb2415c04c47ed3d40d6a9baf3/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/6eb6a6eb2415c04c47ed3d40d6a9baf3/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/9ffbf5175717630d8d615b93e53e30a3/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/9ffbf5175717630d8d615b93e53e30a3/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/8cc21e70581105a9aab65bfe82136900/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/8cc21e70581105a9aab65bfe82136900/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/e575561c181721668b01f145625ea40b/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/e575561c181721668b01f145625ea40b/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/bf04827f5852ca6a7293129f1c079ff5/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/bf04827f5852ca6a7293129f1c079ff5/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/b0283f81b36bdde93867844d879388d4/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/b0283f81b36bdde93867844d879388d4/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/e72267ebe2a4b653b8bb352bb4f08831/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/e72267ebe2a4b653b8bb352bb4f08831/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/087034820c8094c34d558a46feb947b3/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/087034820c8094c34d558a46feb947b3/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/2023023407bc56db85c9f309a042b949/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/2023023407bc56db85c9f309a042b949/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/82bbb8afdf85ac8f6fb3fe06937a29a2/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/82bbb8afdf85ac8f6fb3fe06937a29a2/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/5ba314871278c81d978b96cdc88a5503/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/5ba314871278c81d978b96cdc88a5503/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.4.3] /Users/choeha-eun/.gradle/caches/transforms-3/04397eecb8964e4237d15e7e21035a45/transformed/material-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.4.3] /Users/choeha-eun/.gradle/caches/transforms-3/04397eecb8964e4237d15e7e21035a45/transformed/material-1.4.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/bc6cb5c5d1bced42e791661262201d95/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/bc6cb5c5d1bced42e791661262201d95/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/d05cbe517aeecf50b34f06de43943c0e/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/d05cbe517aeecf50b34f06de43943c0e/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/choeha-eun/.gradle/caches/transforms-3/93ff2044ecc24dba0759e120f5f4346f/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/choeha-eun/.gradle/caches/transforms-3/93ff2044ecc24dba0759e120f5f4346f/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/70175beb29be67345362b1bedcf0581c/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/70175beb29be67345362b1bedcf0581c/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/0a960badd3e4d7d25d499f9fd48e772c/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/0a960badd3e4d7d25d499f9fd48e772c/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/0290d8a921805563f056a8b153d87cc6/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/0290d8a921805563f056a8b153d87cc6/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/ac49a321af20440a1d41e185bf5ff31c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/ac49a321af20440a1d41e185bf5ff31c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/7a73e0868c306e012dff051c864fd127/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/7a73e0868c306e012dff051c864fd127/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/choeha-eun/.gradle/caches/transforms-3/4819f322b6c0e27de51bf00aef0dc661/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/choeha-eun/.gradle/caches/transforms-3/4819f322b6c0e27de51bf00aef0dc661/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/choeha-eun/.gradle/caches/transforms-3/1484e3838c0a98ac6c7c2783eaf1ba85/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/choeha-eun/.gradle/caches/transforms-3/1484e3838c0a98ac6c7c2783eaf1ba85/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/choeha-eun/.gradle/caches/transforms-3/8a8f6f580164751ddce522547a78dbf9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/choeha-eun/.gradle/caches/transforms-3/8a8f6f580164751ddce522547a78dbf9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/choeha-eun/.gradle/caches/transforms-3/d618eab481216e4a81d65413421b2496/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/choeha-eun/.gradle/caches/transforms-3/d618eab481216e4a81d65413421b2496/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/13b56bade3bd016868c2beb1671074ad/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/13b56bade3bd016868c2beb1671074ad/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/34ee95232d3ef0cdf793ee8a72644876/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/34ee95232d3ef0cdf793ee8a72644876/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/ea2fc019084dff9835adba7caf76e7e7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/ea2fc019084dff9835adba7caf76e7e7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/a100e0301ef5f1a999d6bb7bc9b147aa/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/a100e0301ef5f1a999d6bb7bc9b147aa/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /Users/choeha-eun/.gradle/caches/transforms-3/e7466d454c1379bc374d780a762c53f7/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.4.0] /Users/choeha-eun/.gradle/caches/transforms-3/e7466d454c1379bc374d780a762c53f7/transformed/emoji2-views-helper-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/choeha-eun/.gradle/caches/transforms-3/e5d4a32fc83fd145e3722f379ecad1ac/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.4.0] /Users/choeha-eun/.gradle/caches/transforms-3/e5d4a32fc83fd145e3722f379ecad1ac/transformed/emoji2-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/c724a6188832e818ca57f835f1bfc91f/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/c724a6188832e818ca57f835f1bfc91f/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/c2f5b307a0d72e7b1fa134ffda33a575/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/c2f5b307a0d72e7b1fa134ffda33a575/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/ac157bc4ae18afe890cc7c80a2877ef9/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/ac157bc4ae18afe890cc7c80a2877ef9/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/23298c5f837b0031bdc03057627baabe/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/23298c5f837b0031bdc03057627baabe/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/3aa499a90b3cf49a9663cd26f1e9249d/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/3aa499a90b3cf49a9663cd26f1e9249d/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/4b03a68f93955a372eb4e55a83b5c369/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/4b03a68f93955a372eb4e55a83b5c369/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/3f8b6dafacb5ac28f3c7554fd9f13652/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/3f8b6dafacb5ac28f3c7554fd9f13652/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/fabfb8a6d120a3d0b98228dea53782dc/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/fabfb8a6d120a3d0b98228dea53782dc/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/a7c5ea549556e5328f64223b99c54bda/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/a7c5ea549556e5328f64223b99c54bda/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/5385f64ab39f83969eceeb7a0ebe0718/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/5385f64ab39f83969eceeb7a0ebe0718/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/d4242bdf211a12051ced77580736a90f/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/d4242bdf211a12051ced77580736a90f/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/choeha-eun/.gradle/caches/transforms-3/b4ed2a7f99320e5c938585907eeee8b0/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/choeha-eun/.gradle/caches/transforms-3/b4ed2a7f99320e5c938585907eeee8b0/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/choeha-eun/.gradle/caches/transforms-3/a90355d07d891e605d3734961a8a9d15/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/choeha-eun/.gradle/caches/transforms-3/a90355d07d891e605d3734961a8a9d15/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/8aafcda6e5ed549036e70f65f99a2eb6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/8aafcda6e5ed549036e70f65f99a2eb6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choeha-eun/.gradle/caches/transforms-3/0064a50b28e78d78d5a0f2e197452b56/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choeha-eun/.gradle/caches/transforms-3/0064a50b28e78d78d5a0f2e197452b56/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/32cc5a2f5ecb6c5940d59277449ad792/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/32cc5a2f5ecb6c5940d59277449ad792/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/choeha-eun/.gradle/caches/transforms-3/a84cc49cb21295288df9ac834d55dca2/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /Users/choeha-eun/.gradle/caches/transforms-3/a84cc49cb21295288df9ac834d55dca2/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/60b96389365b8b37d53dac3c746be572/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/60b96389365b8b37d53dac3c746be572/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choeha-eun/.gradle/caches/transforms-3/bc7d9c8d08bf3ba78f73be69925a7775/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/choeha-eun/.gradle/caches/transforms-3/bc7d9c8d08bf3ba78f73be69925a7775/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/choeha-eun/.gradle/caches/transforms-3/56122904840b2957d45608be0790f917/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/choeha-eun/.gradle/caches/transforms-3/56122904840b2957d45608be0790f917/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/b23598be416b23b3c9896e53d0469f00/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/b23598be416b23b3c9896e53d0469f00/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/c31bb5f919411439365dbd8a624ee7da/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/c31bb5f919411439365dbd8a624ee7da/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/7158ced440ee08eb39a3972b7bfb6300/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/7158ced440ee08eb39a3972b7bfb6300/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml
+INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml
+		ADDED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml
+		INJECTED from /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/src/main/AndroidManifest.xml
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/ebf6723e8c9b3a71c1c3f939cfb70760/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/ebf6723e8c9b3a71c1c3f939cfb70760/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/ebf6723e8c9b3a71c1c3f939cfb70760/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/ebf6723e8c9b3a71c1c3f939cfb70760/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/ebf6723e8c9b3a71c1c3f939cfb70760/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/choeha-eun/.gradle/caches/transforms-3/ebf6723e8c9b3a71c1c3f939cfb70760/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/5ba314871278c81d978b96cdc88a5503/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/5ba314871278c81d978b96cdc88a5503/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.5.4] /Users/choeha-eun/.gradle/caches/transforms-3/5ba314871278c81d978b96cdc88a5503/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/choeha-eun/.gradle/caches/transforms-3/e5d4a32fc83fd145e3722f379ecad1ac/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/ac157bc4ae18afe890cc7c80a2877ef9/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/ac157bc4ae18afe890cc7c80a2877ef9/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choeha-eun/.gradle/caches/transforms-3/0064a50b28e78d78d5a0f2e197452b56/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/choeha-eun/.gradle/caches/transforms-3/0064a50b28e78d78d5a0f2e197452b56/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/choeha-eun/.gradle/caches/transforms-3/e5d4a32fc83fd145e3722f379ecad1ac/transformed/emoji2-1.4.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/choeha-eun/.gradle/caches/transforms-3/e5d4a32fc83fd145e3722f379ecad1ac/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/choeha-eun/.gradle/caches/transforms-3/e5d4a32fc83fd145e3722f379ecad1ac/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/choeha-eun/.gradle/caches/transforms-3/e5d4a32fc83fd145e3722f379ecad1ac/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/choeha-eun/.gradle/caches/transforms-3/e5d4a32fc83fd145e3722f379ecad1ac/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/choeha-eun/.gradle/caches/transforms-3/e5d4a32fc83fd145e3722f379ecad1ac/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.4.0] /Users/choeha-eun/.gradle/caches/transforms-3/e5d4a32fc83fd145e3722f379ecad1ac/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/c2f5b307a0d72e7b1fa134ffda33a575/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/c2f5b307a0d72e7b1fa134ffda33a575/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/c2f5b307a0d72e7b1fa134ffda33a575/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.example.multiplatform.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/c2f5b307a0d72e7b1fa134ffda33a575/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/c2f5b307a0d72e7b1fa134ffda33a575/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/c2f5b307a0d72e7b1fa134ffda33a575/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/c2f5b307a0d72e7b1fa134ffda33a575/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/c2f5b307a0d72e7b1fa134ffda33a575/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.multiplatform.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/c2f5b307a0d72e7b1fa134ffda33a575/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/choeha-eun/.gradle/caches/transforms-3/c2f5b307a0d72e7b1fa134ffda33a575/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/ac157bc4ae18afe890cc7c80a2877ef9/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/ac157bc4ae18afe890cc7c80a2877ef9/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/choeha-eun/.gradle/caches/transforms-3/ac157bc4ae18afe890cc7c80a2877ef9/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/choeha-eun/.gradle/caches/transforms-3/d4e58d73c884b141683df96a67393ae5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

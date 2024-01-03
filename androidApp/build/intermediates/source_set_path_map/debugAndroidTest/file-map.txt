@@ -1,0 +1,4 @@
+com.example.multiplatform.android.test.androidApp-androidTest-0 /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/build/generated/res/resValues/androidTest/debug
+com.example.multiplatform.android.test.androidApp-mergeDebugAndroidTestResources-1 /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.multiplatform.android.test.androidApp-mergeDebugAndroidTestResources-2 /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.multiplatform.android.test.androidApp-merged_res-3 /Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/build/intermediates/merged_res/debugAndroidTest

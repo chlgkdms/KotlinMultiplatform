@@ -1,0 +1,4 @@
+#Wed Jan 03 19:17:27 KST 2024
+base.0=/Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex
