@@ -11,7 +11,7 @@ import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
 
 class GithubDataSource {
-    private val httpClient = HttpClient() {
+    private val httpClient = HttpClient {
         install(ContentNegotiation) {
             json(Json {
                 ignoreUnknownKeys = true
@@ -20,10 +20,10 @@ class GithubDataSource {
         }
     }
 
-    suspend fun getGithubUsers(q: String): GithubUsersModel = withContext(Dispatchers.IO) {
+    suspend fun getGithubUsers(userName: String) = withContext(Dispatchers.IO) {
         return@withContext httpClient.get("https://api.github.com/search/users") {
             url {
-                parameters.append("q", "user")
+                parameters.append("q", userName)
             }
         }.body<GithubUsersModel>()
     }

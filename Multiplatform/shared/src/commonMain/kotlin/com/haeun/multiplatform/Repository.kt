@@ -5,8 +5,8 @@ class Repository {
 
     private val stringDataSource = StringDataSource()
 
-    suspend fun getGithubUsers(q: String): GithubUsersModel =
-        githubDataSource.getGithubUsers(q = q)
+    suspend fun getGithubUsers(userName: String) =
+        githubDataSource.getGithubUsers(userName = userName)
 
     fun getSavedString(): String =
         stringDataSource.getSavedString()
