@@ -1,9 +1,9 @@
-#Wed Jan 03 20:10:36 KST 2024
-base.0=/Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/build/intermediates/dex/debug/mergeLibDexDebug/6/classes.dex
-base.2=/Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.3=/Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
-base.4=/Users/choeha-eun/Desktop/git/KotlinMultiplatform/Multiplatform/androidApp/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+#Thu Jan 04 08:54:50 KST 2024
+base.0=/Users/choeha-eun/Desktop/git/KotlinMultiplatform/androidApp/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/choeha-eun/Desktop/git/KotlinMultiplatform/androidApp/build/intermediates/dex/debug/mergeLibDexDebug/6/classes.dex
+base.2=/Users/choeha-eun/Desktop/git/KotlinMultiplatform/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.3=/Users/choeha-eun/Desktop/git/KotlinMultiplatform/androidApp/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
+base.4=/Users/choeha-eun/Desktop/git/KotlinMultiplatform/androidApp/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 path.0=classes.dex
 path.1=6/classes.dex
 path.2=0/classes.dex
