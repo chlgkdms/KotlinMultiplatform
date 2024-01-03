@@ -19,6 +19,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -41,7 +42,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyApplicationTheme {
                 Surface(
-                    modifier = Modifier.fillMaxSize(), color = MaterialTheme.colors.background
+                    modifier = Modifier.fillMaxSize(),
+                    color = MaterialTheme.colors.background,
                 ) {
                     SampleView()
                 }
@@ -55,17 +57,22 @@ fun SampleView() {
     val repository = Repository()
     var githubUsers: GithubUsersModel? by remember { mutableStateOf(null) }
     var savedString by remember { mutableStateOf(repository.getSavedString()) }
+    var newString by remember { mutableStateOf(savedString) }
+
+    LaunchedEffect(Unit) {
+        repository.getGithubUsers(newString)
+    }
     LazyColumn(
         Modifier.fillMaxSize()
     ) {
         item {
             EditSavedString(
-                savedString = savedString,
+                newString = newString,
                 onSaveNewString = {
                     repository.saveString(it)
                     savedString = repository.getSavedString()
                 },
-                onClick = { /*repository.getGithubUsers(it)*/ },
+                onClick = { },
             )
         }
         items(githubUsers?.items?.size ?: 0) { index ->
@@ -79,19 +86,20 @@ fun SampleView() {
 
 @Composable
 fun EditSavedString(
-    savedString: String,
+    newString: String,
     onSaveNewString: (String) -> Unit,
     onClick: (String) -> Unit,
 ) {
-    var newString by remember { mutableStateOf(savedString) }
+
 
     Column {
-        Row(verticalAlignment = Alignment.CenterVertically) {
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+        ) {
             TextField(
-                modifier = Modifier
-                .height(56.dp),
+                modifier = Modifier.height(56.dp),
                 value = newString,
-                onValueChange = { newString = it },
+                onValueChange = { newString },
             )
             Image(
                 modifier = Modifier.clickable { onClick(newString) },
@@ -99,11 +107,13 @@ fun EditSavedString(
                 contentDescription = "검색",
             )
         }
-        TextButton(modifier = Modifier
-            .fillMaxWidth()
-            .height(56.dp)
-            .background(Color.LightGray),
-            onClick = { onSaveNewString(newString) }) {
+        TextButton(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(56.dp)
+                .background(Color.LightGray),
+            onClick = { onSaveNewString(newString) },
+        ) {
             Text(
                 text = "저장",
                 color = Color.DarkGray,
@@ -117,8 +127,7 @@ fun EditSavedString(
 fun GithubRepositoryItemView(item: GithubUserModel) {
     Row(
         modifier = Modifier.padding(8.dp),
-
-        ) {
+    ) {
         AsyncImage(
             model = item.avatarUrl,
             contentDescription = "유저 프로필",

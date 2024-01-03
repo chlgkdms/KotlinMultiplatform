@@ -5,7 +5,7 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class GithubUsersModel(
-    val items: List<GithubUserModel>
+    val items: List<GithubUserModel>,
 )
 
 @Serializable
