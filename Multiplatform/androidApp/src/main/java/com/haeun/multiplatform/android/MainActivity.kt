@@ -3,7 +3,9 @@ package com.haeun.multiplatform.android
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
@@ -17,16 +19,18 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.material3.TextField
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import com.example.multiplatform.android.R
 import com.haeun.multiplatform.GithubUserModel
 import com.haeun.multiplatform.GithubUsersModel
 import com.haeun.multiplatform.Repository
@@ -37,8 +41,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             MyApplicationTheme {
                 Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colors.background
+                    modifier = Modifier.fillMaxSize(), color = MaterialTheme.colors.background
                 ) {
                     SampleView()
                 }
@@ -52,17 +55,18 @@ fun SampleView() {
     val repository = Repository()
     var githubUsers: GithubUsersModel? by remember { mutableStateOf(null) }
     var savedString by remember { mutableStateOf(repository.getSavedString()) }
-    LaunchedEffect(Unit) {
-        githubUsers = repository.getGithubUsers(q = savedString)
-    }
     LazyColumn(
         Modifier.fillMaxSize()
     ) {
         item {
-            EditSavedString(savedString = savedString) {
-                repository.saveString(it)
-                savedString = repository.getSavedString()
-            }
+            EditSavedString(
+                savedString = savedString,
+                onSaveNewString = {
+                    repository.saveString(it)
+                    savedString = repository.getSavedString()
+                },
+                onClick = { /*repository.getGithubUsers(it)*/ },
+            )
         }
         items(githubUsers?.items?.size ?: 0) { index ->
             githubUsers?.items?.get(index)?.let {
@@ -74,23 +78,32 @@ fun SampleView() {
 
 
 @Composable
-fun EditSavedString(savedString: String, onSaveNewString: (String) -> Unit) {
+fun EditSavedString(
+    savedString: String,
+    onSaveNewString: (String) -> Unit,
+    onClick: (String) -> Unit,
+) {
     var newString by remember { mutableStateOf(savedString) }
+
     Column {
-        TextField(
-            modifier = Modifier
-                .fillMaxWidth()
+        Row(verticalAlignment = Alignment.CenterVertically) {
+            TextField(
+                modifier = Modifier
                 .height(56.dp),
-            value = newString,
-            onValueChange = { newString = it }
-        )
-        TextButton(
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(56.dp)
-                .background(Color.LightGray),
-            onClick = { onSaveNewString(newString) }
-        ) {
+                value = newString,
+                onValueChange = { newString = it },
+            )
+            Image(
+                modifier = Modifier.clickable { onClick(newString) },
+                painter = painterResource(id = R.drawable.baseline_search_24),
+                contentDescription = "검색",
+            )
+        }
+        TextButton(modifier = Modifier
+            .fillMaxWidth()
+            .height(56.dp)
+            .background(Color.LightGray),
+            onClick = { onSaveNewString(newString) }) {
             Text(
                 text = "저장",
                 color = Color.DarkGray,
@@ -105,7 +118,7 @@ fun GithubRepositoryItemView(item: GithubUserModel) {
     Row(
         modifier = Modifier.padding(8.dp),
 
-    ) {
+        ) {
         AsyncImage(
             model = item.avatarUrl,
             contentDescription = "유저 프로필",
