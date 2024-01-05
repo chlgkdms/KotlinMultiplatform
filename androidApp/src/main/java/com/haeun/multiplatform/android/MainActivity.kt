@@ -90,8 +90,6 @@ fun EditSavedString(
     onSaveNewString: (String) -> Unit,
     onClick: (String) -> Unit,
 ) {
-
-
     Column {
         Row(
             verticalAlignment = Alignment.CenterVertically,
